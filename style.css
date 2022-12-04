@@ -111,10 +111,6 @@ li a {
     display: block;
 }
 
-.banner-foto {
-    display: block;
-}
-
 h1 {
     margin: 20px auto;
     font-size: 30px;
@@ -301,6 +297,7 @@ h2 {
     .banner-foto {
         margin-top: -300px;
         background-size: cover;
+        overflow: auto;
     }
 
     .banner-foto img {
